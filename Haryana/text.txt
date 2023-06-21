@@ -1,0 +1,115 @@
+   <section class="listOfSchemes">
+        <h2>LIST OF SCHEMES</h2>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    •	Haryana Enterprises & Employment Policy, 2020<br>
+                    •	Technology Acquisition Scheme <br>
+                    •	Assistance for Environment Compliance<br> 
+                    •	SME Exchange Equity scheme <br>
+                    •	Electricity Duty Exemption <br>
+                    •	Testing Equipment Assistance Scheme<br> 
+                    •	Market Development Assistance Scheme <br>
+                    •	Patent Registration Scheme <br>
+                    •	Energy Conservation Scheme <br>
+                    •	Water Conservation Scheme <br>
+                    •	Stamp Duty Refund Scheme <br>
+                    •	Quality Certification Assistance Scheme<br> 
+                    •	Revised notification of Investment Subsidy on SGST <br>
+                    •	Freight Assistance Scheme <br> 
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    •	Credit Rating Scheme <br>
+                    •	Safety Compliance Scheme <br>
+                    •	Generator Set Subsidy Scheme <br>
+                    •	Research and Development Center Scheme <br> 
+                    •	Handicraft Awards Scheme <br>
+                    •	State Export Awards Scheme <br>
+                    •	Power Tariff <br>
+                    •	Interest subsidy <br>
+                    •	Employment Generation<br> 
+                    •	Haryana Gramin Udyogik Vikas Yojna<br> 
+                    •	Investment subsidy on SGST <br>
+                    •	Block and Panchayat Mapping HEEP 2020 <br>
+                    •	Assistance for Waste Management - 2021 <br> 
+                    •	Mini Cluster Development Scheme <br>
+                    •	EDC Scheme <br>
+                    •	Infrastructure Industrial Development Scheme <br> 
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    •	Special Provisions for Start-ups <br>
+                    •	State Awards for outstanding entrepreneur in Service <br> 
+                    •	Scheme of State Award for Quality Products <br>
+                    •	Scheme of State Award for Product Process Innovation <br> 
+                    •	Scheme of State Award for outstanding entrepreneur in Manufacturing<br> 
+                    •	Scheme of State Award for Lean Manufacturing Technique<br>
+                    •	Collateral Free Credit Guarantee Scheme <br>
+                    •	Collaborative Industry-Academia Research Scheme<br> 
+                    •	Assistance under Export Credit guarantee Corporation Scheme<br> 
+                    •	Cold Chain Scheme		<br>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    •	State Credit Linked Interest Subsidy for Technology Up-gradation<br>
+                    •	Haryana Backward and Forward Linkage scheme		<br>
+                    •	Creation Expansion Diversification of Individual Agro and Food Processing Units		<br>
+                    •	Integrated Mini food park scheme<br>
+                    •	Haryana AatmaNirbhar Textile Policy 2022-2025<br>
+                    •	Haryana Pharmaceutical Policy - 2019 <br>
+                    •	Capital subsidy scheme under The Haryana Pharmaceutical Policy 2019<br>
+                    •	Logistics, Warehousing & Retail Policy - 2019<br>
+                </div>
+            </div>
+        </div>
+
+
+        /*                          LIST OF SCHEMES               */
+.listOfSchemes
+{
+    margin-top: 6rem;
+}
+
+.listOfSchemes > h2
+{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.column 
+{
+    margin-top: 0.5rem;
+    float: left;
+    width: 23.5%;
+    padding: 0 0.1875rem;
+    margin-left: 0.8125rem;
+}
+  
+.card 
+{
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    padding:  1rem;
+    text-align: left;
+    background-color: #f1f1f1;
+    line-height: 2rem;
+}
+  
+@media screen and (max-width: 600px) 
+{
+    .column 
+    {
+      width: 100%;
+      display: block;
+      margin-bottom: 1.25rem;
+    }
+}
+  
